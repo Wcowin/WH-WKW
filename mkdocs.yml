@@ -66,7 +66,8 @@ theme:
 nav:
   - 主页: index.md 
   - 日常: 
-    - 第一周: week/week1.md     
+    - 第一个月: week/week1.md    
+    - 第二个月: week/week2.md 
 
   # - 留言板: liuyanban.md
   - 大事记:

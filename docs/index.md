@@ -81,5 +81,13 @@ comments: false
     <li>记录日常</li>
     <li>手执烟火以谋生，心怀诗意以谋爱</li>
     <li>Loyal 忠心 Obligation 责任 Valued 尊重 Excuse 宽恕 这就是love </li>
+    <li>Mac/PC端 请在上方标签栏选择主题 在左侧目录选择文章</li>
+    <li>移动端 请点击左上角图标选择主题和文章</li>    
   </ul>
 </div> 
+
+快速谈话(1) 联系我(2)
+{ .annotate }
+
+1. 点击右下角与我联系.
+2. 18939533255
