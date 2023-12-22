@@ -8,7 +8,7 @@ comments:
 # 知足且上进，温柔且坚定
 
 ## Who are we?
-发疯二人组
+互相治愈二人组
 ![img](https://cn.mcecy.com/image/20231223/4eedfce7e4525e7e0456253b2f38db45.jpeg)
 
 ## 小王须知
