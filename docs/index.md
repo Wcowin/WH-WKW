@@ -90,4 +90,9 @@ comments: false
 { .annotate }
 
 1. 点击右下角与我联系.
-2. 18939533255
+2. 18939533255  
+
+
+
+本站访问量：<script async src="//finicounter.eu.org/finicounter.js"></script>
+<span id="finicount_views"></span>
