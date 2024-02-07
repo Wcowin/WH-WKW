@@ -5,13 +5,13 @@ site_author: Wcowin # your name
 #[UI]
 theme:
   name: material
-  custom_dir: overrides  #覆写路径
+  custom_dir: docs/overrides  #覆写路径
   # font: #谷歌字体，自行搜索
   #   text: Bitter  #文本字体
   #   code: Roboto Mono  #代码字体
-  logo: https://cn.mcecy.com/image/20231223/3eb628d46aa47d71be1b03f93f23628b.png #左上角logo，可插入图片链接
+  logo: https://s2.loli.net/2024/02/07/S8GYheTZmCU96HK.png #左上角logo，可插入图片链接
 
-  favicon: img/apple-line.png   # 网页icon
+  favicon: img/wkw-wh.png   # 网页icon
 
   palette:
     #明暗按钮
@@ -68,6 +68,7 @@ nav:
   - 日常: 
     - 第一个月: week/week1.md    
     - 第二个月: week/week2.md 
+    - 第三个月: week/week3.md
 
   # - 留言板: liuyanban.md
   - 大事记:
@@ -79,21 +80,18 @@ nav:
 
   
   
-copyright: Copyright &copy; 2022~2023 Wcowin/All Rights Reserved. # 左下角的版权声明
+copyright: Copyright &copy; Wcowin ───✈︎─ 5:20 WH. # 左下角的版权声明
   
 
 extra:
-  generator: true  #是否删除页脚显示“使用 MkDocs 材料制造”
+  generator: false  #是否删除页脚显示“使用 MkDocs 材料制造”
   social:
     - icon: fontawesome/brands/x-twitter #联系方式图标 : https://fontawesome.com/ 去这里找图标
       link: https://twitter.com/wcowin_
     - icon: fontawesome/brands/github
       link: https://github.com/Wcowin
-    
     - icon: fontawesome/regular/envelope #联系方式图标
       link: mailto:<wangkewen821@gmail.com> #邮件联系方式
-    - icon: fontawesome/brands/bilibili
-      link: https://space.bilibili.com/1407028951?spm_id_from=333.1007.0.0
   analytics: 
     provider: google  #谷歌分析
     property:  
@@ -131,9 +129,9 @@ plugins:
       post_readtime: true
       post_readtime_words_per_minute: 265  #计算帖子的阅读时间时读者每分钟预计阅读的字数
       post_url_format: "{date}/{slug}"
-      categories_slugify: !!python/object/apply:pymdownx.slugs.slugify
-        kwds:
-          case: lower
+      # categories_slugify: !!python/object/apply:pymdownx.slugs.slugify
+      #   kwds:
+      #     case: lower
       pagination_url_format: "page/{page}"
       authors_file: "{blog}/.authors.yml"  #作者信息
   - tags:
@@ -159,6 +157,7 @@ markdown_extensions:   #详见https://squidfunk.github.io/mkdocs-material/setup/
   - pymdownx.snippets
   - pymdownx.smartsymbols
   - pymdownx.tilde
+
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -179,9 +178,9 @@ markdown_extensions:   #详见https://squidfunk.github.io/mkdocs-material/setup/
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
-  - markdown.extensions.toc:
-      slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
-      permalink: "\ue157"
+  # - markdown.extensions.toc:
+  #     slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
+  #     permalink: "\ue157"
   
 extra_javascript:
   - javascripts/extra.js  #自定义javascript
